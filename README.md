@@ -1,6 +1,6 @@
 # 🎬 Movie Review Sentiment Analyzer
 
-A machine learning–based web application that analyzes the sentiment of movie reviews and classifies them as Positive or Negative using Logistic Regression and TF-IDF vectorization
+A Streamlit web application that predicts whether a movie review is **Positive** or **Negative** using a Logistic Regression model trained on the IMDB 50K Movie Reviews Dataset. The model uses TF-IDF vectorization and achieves around 91% accuracy on the test set.
 
 ---
 
@@ -63,7 +63,7 @@ streamlit run app.py
 ```
 ---
 
-## Live Demo
+##  🌐 Live Demo
 
 You can also try the app online without installing anything: 👉 https://2gjlrxhm8ypisyrdvgwnyu.streamlit.app/
 
@@ -73,11 +73,13 @@ You can also try the app online without installing anything: 👉 https://2gjlrx
 
 ✅ Positive Review Prediction
 
-<img width="1909" height="1070" alt="Positive review" src="https://github.com/user-attachments/assets/ab40daec-1e5d-4f98-92e7-434360ff8772" />
+<img width="1909" height="899" alt="Positive review" src="https://github.com/user-attachments/assets/8dec2637-be2e-4afa-a52d-77ea9206135f" />
+
 
 ---
 
 ❌ Negative Review Prediction
 
-<img width="1915" height="1072" alt="Negative review" src="https://github.com/user-attachments/assets/8615e3bb-173e-4985-a1be-cb81f0dda524" />
+<img width="1915" height="885" alt="Negative review" src="https://github.com/user-attachments/assets/d672a21d-1d34-44e2-b9d8-ec9610abdbd6" />
+
 
