@@ -1,6 +1,6 @@
 # 🎬 Movie Review Sentiment Analyzer
 
-A Streamlit web application that predicts whether a movie review is **Positive** or **Negative** using a Logistic Regression model trained on the IMDB 50K Movie Reviews Dataset. The model uses TF-IDF vectorization and achieves around 91% accuracy on the test set.
+A Streamlit web application that predicts whether a movie review is **Positive** or **Negative** using a Logistic Regression model trained on the IMDB 50K Movie Reviews Dataset. The model uses TF-IDF vectorization and achieves around **91%** accuracy on the test set.
 
 ---
 
