@@ -7,6 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1fJsoYdvGIlf_CcsZEx1zbbJ5Cirix0PL
 """
 
+"""
+Movie Review Sentiment Analysis Streamlit Application
+Loads pre-trained sentiment analysis model and vectorizer artifacts.
+Provides an interactive UI for users to input reviews and get sentiment predictions.
+"""
+
 import streamlit as st
 import joblib
 import re
@@ -70,6 +76,15 @@ st.markdown(
 # ----------------------------
 @st.cache_resource
 def load_artifacts():
+    
+    """
+    Cache and load the trained logistic regression model and TF-IDF vectorizer
+    from local joblib files for prediction.
+    Returns:
+        model: trained LogisticRegression model
+        vectorizer: fitted TfidfVectorizer
+    """
+    
     model = joblib.load("model.joblib")
     vectorizer = joblib.load("vectorizer.joblib")
     return model, vectorizer
